@@ -1,0 +1,15 @@
+.options{
+    display: flex;
+}
+
+
+.options >span {
+    background-color: rgb(191, 241, 149);
+    width: 25vw;
+    height: 17vw;
+    font-size: 3vw;
+    margin: 10vw;
+    border: solid yellowgreen;
+    text-align: center;
+    
+}

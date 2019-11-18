@@ -1,0 +1,8 @@
+
+<h1>select a user (please click)</h1>
+<div class="users-list">
+    <ul *ngFor="let u of users"
+    (click)="selectUser(u)">
+    <user-item [user]="u"></user-item>
+    </ul>
+</div>
