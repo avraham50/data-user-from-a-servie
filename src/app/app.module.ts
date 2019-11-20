@@ -13,7 +13,7 @@ import { CommentsComponent } from './comps/panels/comments/comments.component';
 import { PostsComponent } from './comps/panels/posts/posts.component';
 import { TodosComponent } from './comps/panels/todos/todos.component';
 import { UsersComponent } from './comps/panels/users/users.component';
-// import { User } from './model/user';
+
 
 
 
