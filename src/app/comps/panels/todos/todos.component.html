@@ -1,1 +1,11 @@
-<p>todos works!</p>
+<div>
+        <h1 class="select">select a todo (click)</h1>
+        
+    
+        <ul class="panel-list">
+            <li *ngFor="let t of todosList">
+                <item-todo *ngIf="t.userId==todoSer.UserId" [todo]="t"></item-todo>
+            </li>
+        </ul>
+    </div>
+    

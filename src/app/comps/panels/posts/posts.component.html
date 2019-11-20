@@ -1,1 +1,12 @@
-<p>posts works!</p>
+<!-- <div (click)="print()">click consol.log </div> -->
+
+<div>
+    <h1 class="select">select a post (click)</h1>
+    
+
+    <ul class="panel-list">
+        <li *ngFor="let p of postsList">
+            <item-post *ngIf="p.userId==postSrv.UserId" [post]="p"></item-post>
+        </li>
+    </ul>
+</div>
